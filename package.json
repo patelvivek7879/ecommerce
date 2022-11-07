@@ -12,6 +12,7 @@
     "@sanity/client": "^3.2.0",
     "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.25.0",
+    "babel-core": "^6.26.3",
     "canvas-confetti": "^1.5.1",
     "next": "13.0.2",
     "next-sanity-image": "^3.2.1",
@@ -27,6 +28,6 @@
     "eslint-config-next": "13.0.2"
   },
   "extends": [
-      "next"
+    "next"
   ]
 }
