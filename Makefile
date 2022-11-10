@@ -14,3 +14,6 @@ build:
 	-t patelvivek7879/e-commerce:${DOCKER_TAG} \
 	-f ./docker/Dockerfile .
 	docker tag patelvivek7879/e-commerce:${DOCKER_TAG} patelvivek7879/e-commerce:latest
+
+push:
+	docker push patelvivek7879/e-commerce:${DOCKER_TAG}
